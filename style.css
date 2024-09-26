@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    position: absolute;
+    top: 20px;
+    left: 41.5%;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40PX;
+    color: rgb(255, 165, 0);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 10px;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.2);
+    color: #ffffff;
+    font-size: 35px;
+    text-align: right;
+    cursor: pointer;
+}
+input::placeholder{
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.eql-btn{
+    background: rgb(255, 165, 0);
+}
+
+.operator{
+    color: rgb(255, 165, 0);
+}
